@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json Ex</title>
+</head>
+<body>
+    <div id="data">
+        <div id="name">
+
+        </div>
+        <div id="age">
+
+        </div>
+    </div>
+    <script>
+        // retrieve data from the server:
+        let myObjectJson = '{ "username": "Ziad", "Age": 20 }'; // string
+        let myJsObject = JSON.parse(myObjectJson); // object
+
+        console.log(myJsObject);
+        console.log(typeof myJsObject);
+
+        console.log(myObjectJson);
+        console.log(typeof myObjectJson);
+
+        document.getElementById('name').innerHTML = myJsObject.username;
+        document.getElementById('age').innerHTML = myJsObject.Age;
+        
+        // send JSON to the server:
+    //     let myObjectJson = { name: "Ziad", "Age": 20 }; // object
+    //     let myJsObject = JSON.stringify(myObjectJson); // string 
+
+    //     console.log(myJsObject);
+    //     console.log(typeof myJsObject);
+
+    //     console.log(myObjectJson);
+    //     console.log(typeof myObjectJson);
+    // </script>
+</body>
+</html>

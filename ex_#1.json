@@ -1,0 +1,22 @@
+{   
+    "username" : "Ziad",
+    "country" : "Egypt",
+    "Skills" : [
+        "HTML",
+        "CSS",
+        "JS",
+        "VueJS"
+    ],
+    "addresses" : {
+        "Egypt" : "Ain Shames",
+        "USA" : "Florida",
+        "KSA" : [
+            "ONE",
+            "TWO",
+            "THREE"
+        ]
+    },
+    "age" : 20,
+    "Working" : true,
+    "Identity" : null
+}
